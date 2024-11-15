@@ -15,8 +15,8 @@ npx wrangler login # if it's your first time here
 
 In [wrangler.toml](./wrangler.toml), you can set the time to post in the `crons` array beneath the `triggers` configuration. Reminder--cron tabs are written in UTC. I used the [Cloudflare Workers AI LLM Playground](https://playground.ai.cloudflare.com/) to generate my cron tabs using this system message from my wonderful teammate [Craig Dennis](https://twitter.com/craigsdennis):
 
-```bash
-You help write cron tab.
+```
+You help write cron tabs.
 
 The user will give you a description of time they are looking for and your job is to generate a cron tab string.
 
@@ -24,7 +24,6 @@ The user will specify timezones, you know the server runs in UTC.
 
 Return the cron tab and the explanation.
 ```
-
 
 ## Develop locally
 ```bash

@@ -1,5 +1,7 @@
 # Automate Posts to BlueSky with BlueSky API, Cloudflare Workers, Cron Triggers
-This is a [Cloudflare Workers](https://workers.cloudflare.com/) application that makes use of [Cron Triggers](https://developers.cloudflare.com/workers/configuration/cron-triggers/) to automate posting to [Blue Sky](https://bsky.app/). 
+[<img src="https://img.youtube.com/vi/JDj724eUx6o/0.jpg">](https://youtu.be/JDj724eUx6o "Automate AI-Generated Posts to Bluesky with Cloudflare Workers, Cron Triggers, and the Bluesky API")
+
+This [Cloudflare Workers](https://workers.cloudflare.com/) application makes use of [Cron Triggers](https://developers.cloudflare.com/workers/configuration/cron-triggers/) to automate posting to [Blue Sky](https://bsky.app/). 
 
 Every 30 minutes, the application generates an inspiring saying using [llama-3.2-3b-instruct](https://developers.cloudflare.com/workers-ai/models/llama-3.2-3b-instruct/) hosted on [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) and posts it to Blue Sky.
 
